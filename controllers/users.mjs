@@ -1,4 +1,4 @@
-exports.getUsers = (req, res) => {
+export const getUsers = (req, res) => {
   // 사용자 목록을 반환하는 로직
   // //   // Retrieve a list of users from a database or API
    const users = [
@@ -11,6 +11,6 @@ exports.getUsers = (req, res) => {
 };
 
 // POST /api/users
-exports.createUser = (req, res) => {
+export const createUser = (req, res) => {
   // 새로운 사용자를 생성하는 로직
 };
